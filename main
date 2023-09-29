@@ -165,19 +165,19 @@ proxy-providers:
       interval: 100
           
 proxy-groups:
-  - name: BEST PING
+  - name: AUTO PING🔁
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - Bestping
-  - name: EPPONG
+  - name: EPPONG🌀
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
     use:
       - Eppong
-  - name: BATIK
+  - name: BATIK🔰
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
