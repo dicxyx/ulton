@@ -1,0 +1,243 @@
+proxies:
+#=//=# ulton #=//=#
+- name: 🈯MU
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 70e94f60-5634-11ee-a0e6-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
+
+- name: 🈯ME
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: fa6f9f70-5633-11ee-850f-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+
+- name: 🈯H1.A
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 74c1d470-5639-11ee-9a6b-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg1-trojan.bonds.id
+  udp: true
+
+- name: 🈯H2.A
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: b1708fb0-5632-11ee-ad70-1239d0255272
+  skip-cert-verify: true
+  sni: sg2-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg2-trojan.bonds.id
+  udp: true
+  
+- name: 🈯H3.A
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: b396aba0-5633-11ee-a33d-1239d0255272
+  skip-cert-verify: true
+  sni: sg3-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg3-trojan.bonds.id
+  udp: true
+  
+#\\🔰🔰🔰🔰🔰🔰🔰🔰🔰//#
+
+- name: 🈵FR
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: fa6f9f70-5633-11ee-850f-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
+
+- name: 🈵EU
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: d5157150-5636-11ee-913c-1239d0255272
+  skip-cert-verify: true
+  sni: ro1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: ro1.test3.net
+  udp: true
+  
+- name: 🈵NL
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 39e0a0b0-5636-11ee-aa7d-1239d0255272
+  skip-cert-verify: true
+  sni: nl.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: nl.test3.net
+  udp: true
+
+- name: 🈵GE
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: e64fa090-5635-11ee-bc61-1239d0255272
+  skip-cert-verify: true
+  sni: de1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: de1.test3.net
+  udp: true
+
+- name: 🈵TU
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: a82250c0-5635-11ee-b942-1239d0255272
+  skip-cert-verify: true
+  sni: tr.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: tr.test3.net
+  udp: true
+
+- name: 🈵TH
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 6749e190-5635-11ee-98e0-1239d0255272
+  skip-cert-verify: true
+  sni: th1-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: th1-trojan.bonds.id
+  udp: true
+  
+- name: 🈵UK
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: f7f306a0-5634-11ee-a006-1239d0255272
+  skip-cert-verify: true
+  sni: uk1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: uk1.test3.net
+  udp: true
+  
+#\\🔰🔰🔰🔰🔰🔰🔰//#
+
+- name: 🈸CA
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 9d65d500-5639-11ee-80f2-1239d0255272
+  skip-cert-verify: true
+  sni: ca1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: ca1.test3.net
+  udp: true
+
+- name: 🈸ID
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: f0a633e0-5638-11ee-acc9-1239d0255272
+  skip-cert-verify: true
+  sni: id-1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: id-1.test3.net
+  udp: true
+  
+- name: 🈸US
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 6e2450c0-5638-11ee-a10c-1239d0255272
+  skip-cert-verify: true
+  sni: us1.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: us1.test3.net
+  udp: true
+  
+- name: 🈸AMP
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: e32ffe80-5639-11ee-8fc5-1239d0255272
+  skip-cert-verify: true
+  sni: sg-2.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-2.test3.net
+  udp: true
+
+- name: 🈸ASI
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: f9f70-5633-11ee-850f-1239d0255272
+  skip-cert-verify: true
+  sni: sg-4.test3.net
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg-4.test3.net
+  udp: true
