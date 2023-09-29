@@ -137,6 +137,32 @@ tun:
   dns-hijack:
   - tcp://8.8.8.8:53
   - tcp://8.8.4.4:53
+
+direct: 
+ - DOMAIN-SUFFIX,m.me,DIRECT
+ - DOMAIN-SUFFIX,oculus.com,DIRECT
+ - DOMAIN-SUFFIX,oculuscdn.com,DIRECT
+ - DOMAIN-SUFFIX,rocksdb.org,DIRECT
+ - DOMAIN-SUFFIX,whatsapp.com,DIRECT
+ - DOMAIN-SUFFIX,whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,g.whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,web.whatsapp.com,DIRECT
+ - DOMAIN-SUFFIX,scontent.whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,static.whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,mmg.whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,media.fbdj2-1.fna.whatsapp.net,DIRECT
+ - DOMAIN-SUFFIX,media-xsp1-2.cdn.whatsapp.net,DIRECT
+ - DST-PORT,3478,DIRECT
+ - DST-PORT,4244,DIRECT
+ - DST-PORT,5222,DIRECT
+ - DST-PORT,5223,DIRECT
+ - DST-PORT,5288,DIRECT
+ - DST-PORT,5242,DIRECT
+ - DST-PORT,5349,DIRECT
+ - DST-PORT,34784,DIRECT
+ - DST-PORT,45395,DIRECT
+ - DST-PORT,50318,DIRECT
+ - DST-PORT,59234,DIRECT
   
 proxy-providers:
   Bestping:
