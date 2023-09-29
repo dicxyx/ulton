@@ -1,0 +1,15 @@
+proxies:
+#=//=# ulton #=//=#
+- name: Game Tesssss
+  server: 104.18.107.64
+  port: 443
+  type: trojan
+  password: 70e94f60-5634-11ee-a0e6-1239d0255272
+  skip-cert-verify: true
+  sni: sg6-trojan.bonds.id
+  network: ws
+  ws-opts:
+    path: /howdy
+    headers:
+      Host: sg6-trojan.bonds.id
+  udp: true
