@@ -150,7 +150,7 @@ direct:
  - DOMAIN-SUFFIX,scontent.whatsapp.net,DIRECT
  - DOMAIN-SUFFIX,static.whatsapp.net,DIRECT
  - DOMAIN-SUFFIX,mmg.whatsapp.net,DIRECT
- - DOMAIN-SUFFIX,xnxx.com,DIRECT
+ - DOMAIN-SUFFIX,xnxx.com,REJECT
  - DOMAIN-SUFFIX,xvideos.com,REJECT 
  - DOMAIN-SUFFIX,yandex.com,REJECT
  - DOMAIN-SUFFIX,media.fbdj2-1.fna.whatsapp.net,DIRECT
