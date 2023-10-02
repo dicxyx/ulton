@@ -192,7 +192,7 @@ proxy-providers:
   Batik:
     type: http
     path: "./batik.yaml"
-    url: https://raw.githubusercontent.com/dicxyx/ulton/main/pp/Game
+    url: https://raw.githubusercontent.com/dicxyx/ulton/main/pp/Batik
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -200,7 +200,7 @@ proxy-providers:
   Game:
     type: http
     path: "./game.yaml"
-    url: https://raw.githubusercontent.com/dicxyx/ulton/main/pp/Batik
+    url: https://raw.githubusercontent.com/dicxyx/ulton/main/pp/Game
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
