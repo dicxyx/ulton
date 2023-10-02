@@ -173,6 +173,14 @@ proxy-providers:
       enable: true
       url: http://www.gstatic.com/generate_204
       interval: 100
+  Semua:
+    type: http
+    path: "./semua.yaml"
+    url: https://raw.githubusercontent.com/dicxyx/ulton/main/pp/Semua
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 100
   Eppong:
     type: http
     path: "./eppong.yaml"
@@ -198,19 +206,27 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 100     
 proxy-groups:
-  - name: AUTO PING🔁
+  - name: 🔁AUTO🔁
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - Bestping
-  - name: EPPONG🌀
+
+  - name: ⭕SEMUA AKTIF⭕
+    type: url-test
+    url: 'http://www.gstatic.com/generate_204'
+    interval: 300
+    use:
+      - Semua
+
+  - name: 🌀EPPONG🌀
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
     use:
       - Eppong
-  - name: BATIK🔰
+  - name: 🔰BATIK🔰
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
