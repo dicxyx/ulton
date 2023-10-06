@@ -1,6 +1,6 @@
 proxies:
 #=//=# ulton #=//=#
-- name: 🈯MU
+- name: MU
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -14,7 +14,7 @@ proxies:
       Host: sg6-trojan.bonds.id
   udp: true
 
-- name: 🈯ME
+- name: ME
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -28,7 +28,7 @@ proxies:
       Host: sg-4.test3.net
   udp: true
 
-- name: 🈯H1.A
+- name: H1.A
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -42,7 +42,7 @@ proxies:
       Host: sg1-trojan.bonds.id
   udp: true
 
-- name: 🈯H2.A
+- name: H2.A
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -56,7 +56,7 @@ proxies:
       Host: sg2-trojan.bonds.id
   udp: true
   
-- name: 🈯H3.A
+- name: H3.A
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -72,7 +72,7 @@ proxies:
   
 #\\🔰🔰🔰🔰🔰🔰🔰🔰🔰//#
 
-- name: 🈵FR
+- name: FR
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -86,7 +86,7 @@ proxies:
       Host: sg-4.test3.net
   udp: true
 
-- name: 🈵EU
+- name: EU
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -100,7 +100,7 @@ proxies:
       Host: ro1.test3.net
   udp: true
   
-- name: 🈵NL
+- name: NL
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -114,7 +114,7 @@ proxies:
       Host: nl.test3.net
   udp: true
 
-- name: 🈵GE
+- name: GE
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -128,7 +128,7 @@ proxies:
       Host: de1.test3.net
   udp: true
 
-- name: 🈵TU
+- name: TU
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -142,7 +142,7 @@ proxies:
       Host: tr.test3.net
   udp: true
 
-- name: 🈵TH
+- name: TH
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -156,7 +156,7 @@ proxies:
       Host: th1-trojan.bonds.id
   udp: true
   
-- name: 🈵UK
+- name: UK
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -172,7 +172,7 @@ proxies:
   
 #\\🔰🔰🔰🔰🔰🔰🔰//#
 
-- name: 🈸CA
+- name: CA
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -186,7 +186,7 @@ proxies:
       Host: ca1.test3.net
   udp: true
 
-- name: 🈸ID
+- name: ID
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -200,7 +200,7 @@ proxies:
       Host: id-1.test3.net
   udp: true
   
-- name: 🈸US
+- name: US
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -214,7 +214,7 @@ proxies:
       Host: us1.test3.net
   udp: true
   
-- name: 🈸AMP
+- name: AMP
   server: 104.18.107.64
   port: 443
   type: trojan
@@ -228,7 +228,7 @@ proxies:
       Host: sg-2.test3.net
   udp: true
 
-- name: 🈸ASI
+- name: ASI
   server: 104.18.107.64
   port: 443
   type: trojan
