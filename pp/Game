@@ -1,6 +1,6 @@
 proxies:
 #=//=# ulton #=//=#
-- name: 🈯MU
+- name: 1. MU
   server: 104.18.107.64
   port: 443
   type: trojan
