@@ -209,33 +209,33 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       interval: 100     
 proxy-groups:
-  - name: 🔁AUTO🔁
+  - name: OTOMATIS
     type: url-test
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - Bestping
 
-  - name: ⭕SEMUA AKTIF⭕
+  - name: SEMUA AKTIF
     type: load-balance
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - Semua
 
-  - name: 🌀EPPONG🌀
+  - name: MANUAL1
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 100
     use:
       - Eppong
-  - name: 🔰BATIK🔰
+  - name: MANUAL2
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
     use:
       - Batik
-  - name: GAME🖱
+  - name: GAME
     type: select
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
